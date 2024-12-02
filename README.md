@@ -11,16 +11,16 @@ Your team's website MUST include:
 4. Use comments that explain what each section does
 5. A standard navigation bar on one line AND include a hamburger menu for mobile
 6. Add pseudo classes (2) to the nav (hover, active, etc.)
-7. Add a logo and make it sticky
+7. Add a logo and make it sticky (Alex)
 8. At the bottom of each page, name of team member that worked on that page, and a link to their portfolio page
-9. Include a social Media Icon for Facebook and Twitter on the HOME page only
+9. Include a social Media Icon for Facebook and Twitter on the HOME page only (Priscilla)
 10. Use Bootstrap for 2 different elements(ie. Forms, Images) 
 11. Use of <id>
 12. Use of <class>
-13. Embed a map on one of the pages.
-14. Add audio or video to your site and make it applicable to your pages, (it should enhance your pages). (10 points)
+13. Embed a map on one of the pages. (Alex)
+14. Add audio or video to your site and make it applicable to your pages, (it should enhance your pages). (10 points) (Tyler)
 15. One page that includes a table, such as numbers from a spreadsheet, price sheet, or a comparison chart. 
-Include a form with different inputs (ie. checkbox, radio, textarea, password, etc.) but it MUST have at least 4 different inputs as well as a SUBMIT button
+Include a form with different inputs (ie. checkbox, radio, textarea, password, etc.) but it MUST have at least 4 different inputs as well as a SUBMIT button (Gavin/Alex)
 16. You need to have at least 2 JavaScript functions associated with your pages on different pages
 17. Use the CSS Grid Layout somewhere on the Home page
 18. Each page should include proper text headings and typographical hierarchy (i.e. font family and the words should look good)
@@ -32,7 +32,7 @@ Include a form with different inputs (ie. checkbox, radio, textarea, password, e
 24. Style your class
 25. Add a border somewhere on your pages (box border, table, etc.)
 26. Other styles as appropriate to make pages feel complete
-27. Include an animation on 2 different images (2 different pages)
+27. Include an animation on 2 different images (2 different pages) (Gavin/Tyler)
 28. Media Query for Tablet 
     Hide Mobile Required
     2 different styles applied of your choice
