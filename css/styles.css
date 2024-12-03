@@ -1,0 +1,5 @@
+/* css reset, * is a catch all */ 
+* {
+    margin: 0;
+    padding: 0; 
+}
