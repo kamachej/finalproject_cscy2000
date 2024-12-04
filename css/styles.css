@@ -38,8 +38,10 @@
   }
 
   .topnav img {
-    width: 10%; 
-    height: 10%; 
+    /*width: 10%; 
+    height: 10%;*/
+    width: 71px; 
+    height: 53px; 
   }
   
   .active {
