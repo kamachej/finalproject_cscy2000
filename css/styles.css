@@ -8,7 +8,9 @@
 .topnav {
     overflow: hidden;
     background-color: #3b3738;
-    position: relative;
+    /*position: relative;*/
+    position: sticky; 
+    top: 0; 
   }
   
   .topnav #myLinks {
