@@ -40,5 +40,3 @@ Include a form with different inputs (ie. checkbox, radio, textarea, password, e
     Hide Mobile Required
     3 different styles applied of your choice and not used above
 
-
-    TEST
