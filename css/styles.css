@@ -53,3 +53,30 @@
     border: 3px solid green; 
     padding: 10px; 
   }
+
+  /* tablet / dekstop media view */ 
+@media screen and (min-width: 768px) {
+
+  .topnav {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .topnav #myLinks {
+    display: flex; 
+    justify-content: space-between; 
+  }
+
+  .topnav a.icon {
+    display: none; 
+  }
+
+  .topnav a:hover {
+    background-color: #ddd; 
+    color: black; 
+  }
+
+}
+  
