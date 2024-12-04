@@ -99,6 +99,7 @@ table {
   background-color: #fff;
   border-radius: 5px;
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 table th, table td {
