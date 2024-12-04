@@ -6,13 +6,42 @@
     <title>Southern Utah Computers - Services</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Animation for glowing effect */
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 25px #ff00ff;
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff;
+                transform: scale(1.05);
+            }
+            100% {
+                box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 25px #ff00ff;
+                transform: scale(1);
+            }
+        }
+
+        .animated-image {
+            animation: glow 2s infinite ease-in-out;
+            transition: transform 0.5s ease;
+        }
+
+        /* Optional: Centering the image in the page */
+        .pc-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+    </style>
 </head>
 <body>
-    <header> <!-- sticky logo and nav -->
-
+    <header>
         <div class="topnav">
-            <!--<a href="index.html" class="active">Logo</a>-->
-            <img class="active" src="images/Southern_Utah_Computers_Logo.jpeg">
+            <img class="active" src="images/Southern_Utah_Computers_Logo.png" alt="Southern Utah Computers Logo" style="height: 60px;">
             <div id="myLinks">
                 <a href="index.html">Home</a>
                 <a href="sales.html">Sales</a>
@@ -20,21 +49,52 @@
                 <a href="about.html">About Us</a>
                 <a href="contact.html">Contact Us</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="Toggle_Nav()">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
     </header>
     <main>
-        <!-- put your content here -->
-         <p>Place Holder</p>
+        <h1>Our Services</h1>
+        <p>We provide a range of services to meet all your computer needs, including repair, optimization, and custom builds.</p>
+        
+        <section>
+            <h2>Learn About Our Services</h2>
+            <iframe 
+                width="600" 
+                height="340" 
+                src="https://www.youtube.com/embed/Y-TP5U2YHV0" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <p>Watch this video to learn more about our top services and why customers trust Southern Utah Computers.</p>
+        </section>
+        
+        <section class="pc-container">
+    <h2>Custom PC Builds</h2>
+    <img src="https://i.redd.it/iyqdzpdkbsca1.jpg" alt="Custom PC Build" class="animated-image" width="400">
+    <p>We specialize in building custom PCs tailored to your needs, from gaming rigs to office workstations.</p>
+</section>
     </main>
-    <footer> <!-- simple contact info -->
+    <footer>
         <p>Southern Utah Computers</p>
         <p>Phone Number: <a href="tel:4358482332">(435) 848-2332</a></p>
         <p>Email: <a href="mailto:contact@sucomputers.com">contact@sucomputers.com</a></p>
+        <p>Page created by Tyler Ogden</p>
+        <p><a href="portfolio.html">Tyler's Portfolio</a></p>
     </footer>
 
-    <script src="js/scripts.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>

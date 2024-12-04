@@ -13,6 +13,7 @@
   
   .topnav #myLinks {
     display: none;
+    font-family: "Montserrat", sans-serif;
   }
   
   .topnav a {
@@ -50,8 +51,9 @@
   footer {
     margin: auto; 
     width: 50%; 
-    border: 3px solid green; 
-    padding: 10px; 
+    border: 3px solid rgb(238, 58, 3); 
+    padding: 10px;
+    font-family: "Montserrat", sans-serif; 
   }
 
   /* tablet / dekstop media view */ 
@@ -77,6 +79,7 @@
     background-color: #ddd; 
     color: black; 
   }
+}
 
 /* mobile-specific styling for sales page - Gavin */
 @media screen and (max-width: 576px) {
@@ -96,6 +99,7 @@ table {
   background-color: #fff;
   border-radius: 5px;
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 table th, table td {
@@ -128,5 +132,5 @@ table td img {
   max-width: 100px;
 }
 
-}
+
   
