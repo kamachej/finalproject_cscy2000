@@ -7,7 +7,7 @@
 /* nav mobile view "Which is the default" */ 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #3b3738;
     position: relative;
   }
   
@@ -24,7 +24,7 @@
   }
   
   .topnav a.icon {
-    background: black;
+    background: #3b3738; 
     display: block;
     position: absolute;
     right: 0;
@@ -37,8 +37,8 @@
   }
 
   .topnav img {
-    width: 25%; 
-    height: 25%; 
+    width: 10%; 
+    height: 10%; 
   }
   
   .active {
