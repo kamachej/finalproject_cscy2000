@@ -78,5 +78,55 @@
     color: black; 
   }
 
+/* mobile-specific styling for sales page - Gavin */
+@media screen and (max-width: 576px) {
+    table th, table td {
+        font-size: 12px;
+    }
+    table td img {
+        max-width: 80px;
+    }
+}
+
+/* Product Table Styles for Sales Page - Gavin */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-align: center;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+table td img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Adjust table images for tablet view - Gavin */
+table td img {
+  max-width: 100px;
+}
+
 }
   
