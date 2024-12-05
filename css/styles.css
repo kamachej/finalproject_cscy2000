@@ -142,6 +142,46 @@ footer {
   margin: 0 0 10px 0; 
 }
 
+/* Sales Contact Section */
+.sales-contact {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sales-contact h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sales-contact p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #e68a00;
+  color: #fff;
+}
+
 /* Gavin's Portfolio Button Styling */
 .gavin-portfolio-button {
     display: inline-block;
@@ -267,7 +307,7 @@ table {
 table th, table td {
   border: 1px solid #ddd;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 table th {
@@ -280,6 +320,7 @@ table td {
   vertical-align: middle;
 }
 
+/* Product Image Hover - Gavin */
 table td img {
   max-width: 150px;
   height: auto;
@@ -287,6 +328,12 @@ table td img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+table td img:hover {
+  transform: scale(1.25); /* Makes the image bigger by 25% */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow */
 }
 
 /* Adjust table images for tablet view - Gavin */
