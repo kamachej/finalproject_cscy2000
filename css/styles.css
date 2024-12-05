@@ -108,14 +108,47 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-  /* default footer */ 
-  footer {
-    margin: auto; 
-    width: 50%; 
-    border: 3px solid rgb(238, 58, 3); 
-    padding: 10px;
-    font-family: "Montserrat", sans-serif; 
-  }
+/* default footer */ 
+footer {
+  margin: auto; 
+  width: 50%; 
+  border: 3px solid rgb(238, 58, 3); 
+  padding: 10px;
+  font-family: "Montserrat", sans-serif; 
+}
+
+/* Gavin's Specialized Footer */
+.sales-footer-content {
+  text-align: left;
+}
+
+.sales-footer-right {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.sales-footer-right p {
+    margin: 0;
+}
+
+/* Portfolio Button Styling */
+.gavin-portfolio-button {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.gavin-portfolio-button:hover {
+    background-color: #e68a00;
+    color: #fff;
+}
 
 /* tablet / dekstop media view */ 
 @media screen and (min-width: 768px) {
