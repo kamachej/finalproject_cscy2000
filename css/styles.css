@@ -160,6 +160,15 @@ footer {
     color: #fff;
 }
 
+.gavin-profile-picture {
+  display: block;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 /* tablet / dekstop media view */ 
 @media screen and (min-width: 768px) {
 
