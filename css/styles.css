@@ -113,6 +113,9 @@ footer {
   display: flex;
   justify-content: space-between; 
   align-items: flex-start; /* Aligns content at the top */
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
   padding: 15px;
   border: 2px solid rgb(238, 58, 3);
   background-color: white;
