@@ -51,6 +51,11 @@
     color: white;
   }
 
+/* Adds spacing before the footer */
+  main {
+    padding-bottom: 30px;
+}
+
 /* Hero Section - Gavin */
 .hero {
   display: flex;
