@@ -56,7 +56,7 @@
     padding-bottom: 20px;
 }
 
-/* Hero Section Main Homepage - Gavin */
+/* Hero Section - Gavin */
 .hero {
   display: flex;
   flex-direction: column;
@@ -122,12 +122,12 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 
-/* Gavin's Sales Page Left Footer Content */
+/* Gavin's Page Left Footer Content */
 .sales-footer-content {
   text-align: left;
 }
 
-/* Gavin's Sales Page Right Footer Content */
+/* Gavin's Page Right Footer Content */
 .sales-footer-right {
   display: flex;
   flex-direction: column; /* Stacks content vertically */
@@ -140,46 +140,6 @@ footer {
 /* Adds spacing below the "Created by" text */
 .sales-footer-right p {
   margin: 0 0 10px 0; 
-}
-
-/* Sales Contact Section */
-.sales-contact {
-  text-align: center;
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.sales-contact h2 {
-  font-size: 1.8rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.sales-contact p {
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.contact-button {
-  display: inline-block;
-  background-color: #ff9800;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-  background-color: #e68a00;
-  color: #fff;
 }
 
 /* Gavin's Portfolio Button Styling */
@@ -208,7 +168,10 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gavin-intro-section {
+header .gavin-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ddd;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -222,7 +185,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -242,7 +205,6 @@ footer {
   font-size: 1rem;
   color: #555;
   text-align: justify;
-  font-family: "Montserrat", sans-serif;
 }
 
 .gavin-about-image {
@@ -307,7 +269,7 @@ table {
 table th, table td {
   border: 1px solid #ddd;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 table th {
@@ -320,7 +282,6 @@ table td {
   vertical-align: middle;
 }
 
-/* Product Image Hover - Gavin */
 table td img {
   max-width: 150px;
   height: auto;
@@ -328,12 +289,6 @@ table td img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-table td img:hover {
-  transform: scale(1.25); /* Makes the image bigger by 25% */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow */
 }
 
 /* Adjust table images for tablet view - Gavin */
@@ -379,7 +334,7 @@ h1, h2, h3 {
   margin-bottom: 0.5rem;
 }
 
-/* Main Section */
+/* Main Section - Priscilla */
 #about-us {
   max-width: 800px;
   margin: 2rem auto;
