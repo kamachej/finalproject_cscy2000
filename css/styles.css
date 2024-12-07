@@ -215,6 +215,10 @@ header .gavin-subtitle {
   font-family: "Montserrat", sans-serif;
 }
 
+.gavin-intro-section {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Gavin's Portfolio About Section */
 .gavin-about-section {
   display: flex;
