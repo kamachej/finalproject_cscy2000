@@ -83,6 +83,7 @@
   margin-bottom: 20px;
 }
 
+/* Customizations for the hero "explore more" button on main homepage */
 .hero-button {
   display: inline-block;
   background-color: #ff4800;
@@ -93,6 +94,7 @@
   font-size: 1rem;
 }
 
+/* When hovering over the button, it'll turn red */
 .hero-button:hover {
   background-color: #f50000;
 }
@@ -181,6 +183,7 @@ footer {
   margin-bottom: 20px;
 }
 
+/* Customization of the contact button on the sales page */
 .contact-button {
   display: inline-block;
   background-color: #ff9800;
@@ -216,6 +219,7 @@ footer {
     color: #fff;
 }
 
+/* Customizes and adjusts my profile picture to how I want it */
 .gavin-profile-picture {
   display: block;
   max-width: 600px;
