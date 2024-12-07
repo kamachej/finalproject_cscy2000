@@ -56,7 +56,7 @@
     padding-bottom: 20px;
 }
 
-/* Hero Section - Gavin */
+/* Hero Section on Main Homepage - Gavin */
 .hero {
   display: flex;
   flex-direction: column;
@@ -130,8 +130,10 @@ footer {
 /* Gavin's Page Right Footer Content */
 .sales-footer-right {
   display: flex;
-  flex-direction: column; /* Stacks content vertically */
-  align-items: flex-end; /* Aligns text and button to the right */
+  /* Stacks content vertically */
+  flex-direction: column;
+  /* Aligns text and button to the right */ 
+  align-items: flex-end; 
   text-align: right;
   font-size: 0.9rem;
   color: #000000;
@@ -142,7 +144,7 @@ footer {
   margin: 0 0 10px 0; 
 }
 
-/* Sales Contact Section */
+/* Sales Contact Section - Gavin */
 .sales-contact {
   text-align: center;
   margin-top: 30px;
