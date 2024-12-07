@@ -130,9 +130,9 @@ footer {
 /* Gavin's Page Right Footer Content */
 .sales-footer-right {
   display: flex;
-  /* Stacks content vertically */
+  /* Stacks my content vertically */
   flex-direction: column;
-  /* Aligns text and button to the right */ 
+  /* Aligns the text and the button to the right */ 
   align-items: flex-end; 
   text-align: right;
   font-size: 0.9rem;
