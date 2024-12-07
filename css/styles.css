@@ -117,9 +117,8 @@
 .hero-image img {
   /* Applies animation for one 1 second */
   animation: slideInFromRight 1s ease-out;
-  /* No movement after animation */ 
+  /* No movement after animation is finished */ 
   transform: translateX(0); 
-  /* Makes the hero image viewable after animation */
   opacity: 1; 
 }
 
