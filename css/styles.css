@@ -546,6 +546,43 @@ h1, h2, h3 {
   color: #aa2504; 
 }
 
+/* Styling for Priscilla's about me page */
+#priscilla-portfolio body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#priscilla-portfolio .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+#priscilla-portfolio header {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  border-bottom: 2px solid #ddd;
+}
+#priscilla-portfolio header h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+#priscilla-portfolio header p {
+  font-size: 1.2em;
+  color: #666;
+  margin: 0;
+}
+
+#priscilla-portfolio .profile-img {
+  margin: 20px 0;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #ddd;
+}
+
 /*Styling for services - Tyler*/
 /* Animation for glowing effect for sandstone orange */
 @keyframes sandstone-glow {
