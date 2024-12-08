@@ -612,16 +612,16 @@ h1, h2, h3 {
 }
 
 /* Responsive navigation */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
       float: right;
       display: block;
   }
-}
+}*/
 
 /* Show links when clicking menu icon */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
       position: absolute;
@@ -633,7 +633,7 @@ h1, h2, h3 {
       display: block;
       text-align: left;
   }
-}
+}*/
 
 /* Adjust spacing for PC image section */
 .pc-container h2 {
