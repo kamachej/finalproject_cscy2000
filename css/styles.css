@@ -644,3 +644,20 @@ h1, h2, h3 {
   margin-top: 20px; 
 }
 
+.tyler {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.tyler-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.tyler-picture img {
+  max-width: 100%;
+  height: auto;
+}
+
