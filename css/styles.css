@@ -103,7 +103,7 @@
   margin-top: 30px;
 }
 
-/* Animation for Moving Hero Image In */
+/* Animation for Moving Hero Image In - Gavin */
 @keyframes slideInFromRight {
     from {
         transform: translateX(100%); 
@@ -115,7 +115,7 @@
     }
 }
 
-/* Hero Image Animation */
+/* Hero Image Animation - Gavin */
 .hero-image img {
   /* Applies animation for one 1 second */
   animation: slideInFromRight 1s ease-out;
@@ -183,7 +183,7 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Customization of the contact button on the sales page */
+/* Customization of the contact button on the sales page - Gavin */
 .contact-button {
   display: inline-block;
   background-color: #ff9800;
@@ -635,7 +635,7 @@ h1, h2, h3 {
   }
 }*/
 
-/* Adjust spacing for PC image section */
+/* Adjust spacing for PC image section on Service Page - Tyler */
 .pc-container h2 {
   margin-bottom: 10px;
 }
